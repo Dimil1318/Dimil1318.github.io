@@ -43,10 +43,15 @@ float:left;
 .my-name>img{
 		display:none;
 	}
+@media screen and (min-width:1440px){
+	footer.medium{
+		max-width:100%;
+	}
+}
 	
 	/* --------------1440px -------------------*/
 	
-@media screen and (max-width:1440px){
+
 	/* -----------header---------*/
 	.my-photo{
 			width:38%;
@@ -258,7 +263,7 @@ ul{
 	list-style-type:square;
 }
 
-}
+
 /* --------------1040px -------------------*/
 @media screen and (max-width:1040px){
 	.my-name>img{
